@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form tag</title>
+  </head>
+  <body>
+    <!-- sachin
+    <label for="">Name:</label>
+    <br /><br />
+    <input
+      id="name"
+      type="text"
+      placeholder="enter the name" -->
+    <!--here we can write anything we want like text, number  special sysmbol-->
+
+   
+
+    <!-- <input
+      id="name"
+      type="number" -->
+<!-- here we cant write text , only number is acceptable -->
+   
+    <!-- <input id="name" type="checkbox" /> -->
+
+    <!-- <input id="name" type="date" />only gives date -->
+
+    <!-- <input id="name" type="datetime-local" />- date with time -->
+   
+    <!-- <input id="name" type="radio" /> -->
+   
+    <!-- <input id="name" type="range" /> -->
+   
+    <!-- <input id="name" type="search" /> -->
+
+    <!-- <input id="name" type="button" /> -->
+  
+    <!-- <input id="name" type="submit" />if we use this our form will submit -->
+   
+    <!-- <input id="name" type="submit" value="submit" />form will not submit -->
+   
+
+    <!--now same code with form example-->
+
+    <form>
+        <fieldset>
+            <!-- fieldset adds border to the whole file -->
+            <legend>user details</legend>
+      <label for="">Name:</label><br />
+
+      <input
+        id="name"
+        placeholder="enter ur name"
+        type="text"
+      /><!--here we can write anything we want like text, number  special sysmbol-->
+
+      <br />
+      <label for="number"
+        >enter mobile number(here u can give whatever you want):</label
+      ><br />
+      <input
+        id="name"
+        placeholder="enter mobile number"
+        type="number"
+      /><!-- here we cant write text , only number is acceptable -->
+      <br /><br />
+
+      <label for="t&c"
+        >terms and condition(here u can give whatever you want):</label
+      >
+      <input id="name" type="checkbox" />
+      <br /><br />
+
+      <label for="date">enter date (here u can give whatever you want):</label>
+      <input id="name" type="date" /><!-- only gives date-->
+      <br /><br />
+
+      <label for="number"
+        >enter mdate and time (here u can give whatever you want):</label
+      >
+      <input id="name" type="datetime-local" /><!--- date with time-->
+      <br /><br />
+
+      <label for="gender">gender (here u can give whatever you want):</label>
+      <br />
+      famale: <input id="name" type="radio" /> male:
+      <input id="name" type="radio" /> others: <input id="name" type="radio" />
+      <hr />
+      <!--suppose in  the above ender code all are slelectig when we are 
+        doing selection if u want only male to selected then use anem as attribute -->
+      <label for="gender">gender (here u can give whatever you want):</label>
+      <br />
+      famale: <input id="name" name="gender" type="radio" /> male:
+      <input id="name" name="gender" type="radio" /> others:
+      <input id="name" name="gender" type="radio" />
+      <hr />
+
+      <br /><br />
+
+      <label for="number"
+        >keep a range(here u can give whatever you want):</label
+      >
+      <input id="name" type="range" />
+      <br /><br />
+
+      <label for="number">
+        search data(here u can give whatever you want):</label
+      >
+      <input id="name" type="search" />
+      <br /><br />
+
+      <label for="number">button(here u can give whatever you want):</label>
+      <input id="name" type="button" />
+      <br /><br />
+
+      <label for="number">SUBMIT(here u can give whatever you want):</label>
+      <input
+        id="name"
+        type="submit"
+      /><!--if we use this our form/PAGE will submit-->
+      <br /><br />
+
+      <label for="number"
+        >enter mobile number(here u can give whatever you want):</label
+      >
+
+      <input
+        id="name"
+        type="submit"
+        value="submit"
+      /><!--form will not submit-->
+
+      <!--like example selecting a country in a page-->
+      <br />
+      <br />
+
+      <label for="counter">country: you need</label>
+      <select name="country" id="">
+        <br />
+        <option value="india(this value is to put in database of india)">
+          india
+        </option>
+        <option value="usa">usa</option>
+        <option value="japan">japan</option>
+        <option value="russia">russia</option>
+        <option value="bangla">bangla</option>
+        <option value="leave it">leave it</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="">description: like give a feed back</label>
+
+      <textarea
+        placeholder="enter fulll description"
+        name=""
+        id=""
+        cols="40"
+        rows="4"
+      ></textarea>
+      <br />
+      <label>password</label>
+      <input type="password" />
+      <br />
+
+
+      select gender
+      <label for="male">male</label>
+      <input type="radio" name="gender"  value="male"/>
+
+      <br />
+      <label for="male">female</label>
+      <input type="radio" name="gender" value="female" />
+      <br><br>
+      <label>avengers</label>
+      <input type="checkbox" name="avengers" id="avenger"><br>
+      <label>kgf</label>
+      <input type="checkbox" name="avengers" id="kgf"><br>
+      <label>pk</label>
+      <input type="checkbox" name="avengers" id="pk"><br>
+      <br><label>email</label>
+      <input type="email" name="useremail">
+    </fieldset>
+
+    </form>
+  </body>
+</html>

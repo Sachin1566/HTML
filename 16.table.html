@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table  tag in html</title>
+
+</head>
+<body>
+    <h2> this is table table</h2>
+   <!-- this method is a long form-->
+this is long form
+
+    <table border="" cellpadding="10px" cellspacing="5px">
+        <!-- here border attribute is mondatatory  -->
+        <caption>my details</caption><!-- for giving table name-->
+       
+       
+        <thead >
+            <th>s.no</th><!-- th means table heading-->
+            <th>name.</th>
+            <th>sec.</th>
+            <th>rool no.</th>
+        </thead>
+        <tbody>
+            <trow>
+                <tr>
+                    <td>1</td>
+                    <td>sachin</td>
+                    <td clospan="">B</td>
+                <!-- <td>ec118</td> -->
+                </tr>
+
+                <tr>
+                <td>2</td>
+                <td>swati</td>
+                <td >c</td>
+                <td>ec119</td>
+                </tr>
+                
+                <td>1</td>
+                <td>sachin</td>
+                <td rowspan="">B</td>
+                <!--   -->
+                
+                <tr><!-- gives the table values to the next line-->
+                    <td>1</td>
+                    <td>sachin</td>
+                    <td>B</td>
+                    <td>ec118</td></tr>
+
+            </trow>
+        </tbody>
+        
+        
+    </table>
+<hr><hr><hr>
+
+
+
+
+    <!-- this is short form-->
+    this is short form
+    <table border="30">
+        <caption>my details</caption>
+        <th>s.no</th><!-- th means table heading-->
+            <th>name.</th>
+            <th>sec.</th>
+            <th>rool no.</th>
+
+            <tr><!-- give stable values to the next line-->
+                <td>1</td>
+                    <td>sachin</td>
+                    <td>B</td>
+                    <td>ec118</td> 
+
+        <tfoot><!--gives theader values in foot  of the table -->
+            <th>s.no</th><!-- th means table heading-->
+            <th>name.</th>
+            <th>sec.</th>
+            <th>rool no.</th>
+        </tfoot>
+    </table>
+</body>
+</html>
